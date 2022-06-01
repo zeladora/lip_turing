@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(203, 203, 203);
+}
+.navbar{
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    word-spacing: 8em;
+    font-size: 1.7em;
+    padding: 1em 0em;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar a:hover{
+    color: rgba(190, 190, 190, 0.725);
+}
+#titulo{
+    text-align: center;
+    font-size: 4em;
+    font-family: cursive;
+}
+#premiado{
+    padding-left: 1em;
+}
+#foto{
+    width: 40%;
+    height: 40%;
+    padding:1px 30%;
+    text-align: center;
+}
+#descricao{
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 37, 37);
+    height: auto;
+    margin-bottom: 0px;
+}
+#divcopy{
+    margin-left: 33%;
+    margin-top: 1.7%;
+    margin-right: 40%;
+    color: rgba(255, 255, 255, 0.564);
+    font-size: smaller;
+}
+#divlogo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin-left: 6%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: white;
+}
+#scratch{
+    margin: 5% 28%;
+}
